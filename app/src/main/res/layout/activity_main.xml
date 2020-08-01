@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="What Would You Like To Do?"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="153dp"
+        android:layout_height="161dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="180dp"
+        android:background="@android:color/darker_gray"
+        android:text="Camera Button"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:onClick="captureOnClick"/>
+
+    <Button
+        android:id="@+id/browseButton"
+        android:layout_width="153dp"
+        android:layout_height="161dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="180dp"
+        android:background="@android:color/darker_gray"
+        android:text="Browse Button"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:onClick="browseOnClick"/>
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="50dp"
+        android:text="Capture\nan Image"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="370dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="50dp"
+        android:text="Browse\nYour Images"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="370dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

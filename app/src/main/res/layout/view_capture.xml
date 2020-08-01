@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:id="@+id/imageDisplay"
+        android:layout_width="340dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Tag:"
+        android:textColor="@android:color/white"
+        android:textSize="34dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/tagEditText"
+        android:layout_width="240dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="140dp"
+        android:background="@android:color/darker_gray"
+        android:textSize="30dp"
+        android:hint="Please Enter Tag"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Size:"
+        android:textColor="@android:color/white"
+        android:textSize="34dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/sizeTextView"
+        android:layout_width="240dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginLeft="140dp"
+        android:background="@android:color/darker_gray"
+        android:textSize="20dp"
+        android:text="sizeValue"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:onClick="saveOnClick"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="Save"
+        android:textSize="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="620dp"/>
+
+</RelativeLayout>
